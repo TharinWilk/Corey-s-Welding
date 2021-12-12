@@ -44,10 +44,10 @@ let contacts = "hidden";
 
 function resetScreens() {
   skillsPage.style.transform = "translateX(-100%)";
-  skillsPage.style.position = "fixed";
-  projectPage.style.position = "fixed";
   projectPage.style.visibility = "visible";
   projectPage.style.transform = "translateY(100%)";
+  skillsPage.style.position = "fixed";
+  projectPage.style.position = "fixed";
   contactPage.style.transform = "translateX(100%)";
   body.style.overflowY = "hidden";
 }
