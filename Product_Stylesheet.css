@@ -170,9 +170,10 @@ html {
 /* Section: Sections */
 
 .offscreen-section {
-  position: absolute;
-  width: 100vw;
-  min-height: 100vh;
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  min-height: -webkit-fill-available;
   z-index: 3;
   transition: 0.5s;
   background: #000000F2;
