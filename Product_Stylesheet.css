@@ -162,28 +162,6 @@ HTML {
   }
 }
 
-@media (max-width: 850px) {
-  .logo {
-    flex-direction: column;
-  }
-  .nav-list {
-    position: absolute;
-    flex-direction: column;
-    z-index: 10;
-    background: black;
-    top: -20rem;
-    transition: 0.75s;
-  }
-  .toggle-navbar {
-    display: block;
-    transition: 0.75s;
-    z-index: 20;
-  }
-  .contacts {
-    display: none;
-  }
-}
-
 /* Section: Sections */
 
 .offscreen-section {
