@@ -44,6 +44,8 @@ let contacts = "hidden";
 
 function resetScreens() {
   skillsPage.style.transform = "translateX(-100%)";
+  skillsPage.style.position = "fixed";
+  projectPage.style.position = "fixed";
   projectPage.style.visibility = "visible";
   projectPage.style.transform = "translateY(100%)";
   contactPage.style.transform = "translateX(100%)";
@@ -58,6 +60,7 @@ skillsLink.addEventListener('click', () => {
   resetScreens();
   if(skills == "hidden") {
     skillsPage.style.transform = "translateX(0%)";
+    skillsPage.style.position = "absolute";
     skills = "open"
     projects = "hidden"
     contacts = "hidden"
@@ -72,6 +75,7 @@ projectLink.addEventListener('click', () => {
   resetScreens();
   if(projects == "hidden") {
     projectPage.style.transform = "translateY(0%)";
+    projectPage.style.position = "absolute";
     projects = "open"
     skills = "hidden"
     contacts = "hidden"
